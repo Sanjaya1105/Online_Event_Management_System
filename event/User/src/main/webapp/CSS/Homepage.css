@@ -1,0 +1,122 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.logo_nav_bar {
+  width: 80px;
+}
+.container_nav {
+  background-color: #ffffff;
+  padding: 0 8%;
+  border-bottom: 2px solid #3a6c77;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Adjust values as needed */
+}
+.nav_body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_item {
+  display: flex;
+  gap: 25px;
+  font-size: 20px;
+}
+.nav_link {
+  cursor: pointer;
+}
+.nav_link:hover {
+  color: #3a6c77;
+}
+.container_main_page {
+  padding: 0 8%;
+}
+.main_home_bk {
+  background-image: url(./bkevt.jpg);
+  padding: 0;
+  margin: 0;
+  height: 80vh;
+  align-items: center;
+  text-align: center;
+  font-size: 80px;
+  padding: 0 12%;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: white;
+  background-size: cover;
+}
+.content {
+  display: flex;
+  top: 55%;
+}
+
+.main_topic {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 40px;
+  color: #3a6c77;
+  margin: 10px;
+}
+.detilu {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 25px;
+  margin: 0;
+  display: flex;
+}
+footer {
+  background-color: #3a6c77;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 25px 0;
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+}
+.a_tag {
+    font-weight: bold;
+  color: #3a6c77;
+  text-decoration: none;
+}
+.card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 8px;
+  padding: 25px;
+  border: 2px solid #3a6c77;
+}
+.card:hover{
+    background-color: #3a6c772b;
+}
+.card_container {
+  gap: 25px;
+  margin: 25px;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  display: flex;
+}
+/* Hide scrollbar track */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3a6c77; /* Color of the scrollbar handle */
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3a6c77; /* Color of the scrollbar handle on hover */
+}

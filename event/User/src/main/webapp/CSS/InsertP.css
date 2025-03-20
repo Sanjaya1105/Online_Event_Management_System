@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 650px;
+}
+.form{
+	width: 600px;
+    border-radius: 8px;
+    border: 2px solid #3a6c77;
+    padding: 25px;
+}
+.profile-icon {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-icon img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 10px 0 0 0;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 10px 0 0 0;
+}
+.checkbox-agreement {
+  margin: 10px 0 0 0;
+}
+.chec {
+  width: 20px;
+}
+
+button {
+  background-color: #3a6c77;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  font-weight: bold;
+  margin: 20px 0 0 0;
+}
+
+.btnn {
+  background-color: #3a6c77;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  font-weight: bold;
+  margin: 20px 0 0 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3a6c77; /* Color of the scrollbar handle */
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3a6c77; /* Color of the scrollbar handle on hover */
+}
